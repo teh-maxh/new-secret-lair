@@ -9,14 +9,29 @@
 	--violet: hsl(237deg 43% 60%);
 }
 
+@font-face{
+	font-family: "Cabin Condensed";
+	src: url(cabin-condensed.woff2) format('woff2');
+	font-display: swap;
+}
+
 html{
 	background-color: var(--background-colour);
 	color: var(--text-colour);
+	overflow: hidden;
 }
 
 body{
 	text-align: center;
 }
+
+main{
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+}
+
 #question{
 	font-size: 24pt;
 	color: var(--secondary-colour);
@@ -24,4 +39,28 @@ body{
 
 #answer{
 	font-size: 48pt;
+}
+
+aside{
+	transform: rotate(45deg);
+	background-color: var(--cyan);
+	position: absolute;
+	top: 42px;
+	right: -42px;
+	width: 220px;
+	height: 3.42ex;
+	line-height: 3.42ex;
+	font-family: 'Cabin Condensed', sans-serif;
+	display: block;
+}
+
+aside img{
+	height: 2ex;
+	width: 2ex;
+	vertical-align: baseline;
+}
+
+aside a{
+	color: var(--background-colour);
+	text-decoration: none;
 }
