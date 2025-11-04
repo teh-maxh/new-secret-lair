@@ -1,0 +1,27 @@
+:root{
+	--magenta: hsl(331deg 64% 52%);
+	--red: hsl(348deg 74% 40%);
+	--orange: hsl(18deg 80% 44%);
+	--yellow: hsl(45deg 100% 35%);
+	--green: hsl(68deg 100% 30%);
+	--blue: hsl(220deg 52% 45%);
+	--cyan: hsl(175deg 59% 40%);
+	--violet: hsl(237deg 43% 60%);
+}
+
+html{
+	background-color: var(--background-colour);
+	color: var(--text-colour);
+}
+
+body{
+	text-align: center;
+}
+#question{
+	font-size: 24pt;
+	color: var(--secondary-colour);
+}
+
+#answer{
+	font-size: 48pt;
+}
