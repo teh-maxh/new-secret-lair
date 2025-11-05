@@ -52,15 +52,15 @@ aside{
 	line-height: 3.42ex;
 	font-family: 'Cabin Condensed', sans-serif;
 	display: block;
-}
-
-aside img{
-	height: 2ex;
-	width: 2ex;
-	vertical-align: baseline;
-}
-
-aside a{
-	color: var(--background-colour);
-	text-decoration: none;
+	
+	img{
+		height: 2ex;
+		width: 2ex;
+		vertical-align: baseline;
+	}
+	
+	a{
+		color: var(--background-colour);
+		text-decoration: none;
+	}
 }
